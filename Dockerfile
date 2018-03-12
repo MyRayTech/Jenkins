@@ -7,7 +7,6 @@ apk add --no-cache \
     docker && \
 echo "*** Cleanup ***" && \
 rm -rf \
-    /tmp/* \
-chmod 666 /var/run/docker.sock
+    /tmp/*
 
 USER jenkins
